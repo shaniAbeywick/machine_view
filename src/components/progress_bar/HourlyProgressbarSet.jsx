@@ -351,51 +351,51 @@ export default function LinearWithValueLabel() {
           const hour = today.getHours();
           const minute = today.getMinutes();
 
-          if ((hour === 20) && (minute === 45) ) {
+          if ((hour === 21) && (minute === 59) ) {
             setTimetotimeprog1(json.hourlyStopperStop)
           }
 
-          if ((hour === 20) && (minute === 46) ) {
+          if ((hour === 22) && (minute === 0) ) {
             setTimetotimeprog2(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute === 47) ) {
+          if ((hour === 22) && (minute === 1) ) {
             setTimetotimeprog3(json.hourlyLabelStop)
           }
           
-          if ((hour === 20) && (minute === 48) ) {
+          if ((hour === 22) && (minute === 2) ) {
             setTimetotimeprog4(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute === 49) ) {
+          if ((hour === 22) && (minute === 3) ) {
             setTimetotimeprog5(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute === 50) ) {
+          if ((hour === 22) && (minute === 4) ) {
             setTimetotimeprog6(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute === 51) ) {
+          if ((hour === 22) && (minute === 5) ) {
             setTimetotimeprog7(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute === 52) ) {
+          if ((hour === 22) && (minute === 6) ) {
             setTimetotimeprog8(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute ===53) ) {
+          if ((hour === 22) && (minute ===7) ) {
             setTimetotimeprog9(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute === 54) ) {
+          if ((hour === 22) && (minute === 8) ) {
             setTimetotimeprog10(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute === 55) ) {
+          if ((hour === 22) && (minute === 9) ) {
             setTimetotimeprog11(json.hourlyLabelStop)
           }
 
-          if ((hour === 20) && (minute === 56) ) {
+          if ((hour === 22) && (minute === 10) ) {
             setTimetotimeprog12(json.hourlyLabelStop)
           }
           console.log(json);
